@@ -6,8 +6,8 @@ require 'top_ten_islands/version'
 Gem::Specification.new do |spec|
   spec.name          = "top_ten_islands"
   spec.version       = TopTenIslands::VERSION
-  spec.authors       = ["Baruch Steinmetz"]
-  spec.email         = ["boruchsteinmetz@outlook.com"]
+  spec.authors       = ["Sholom Steinmetz"]
+  spec.email         = ["sholomsteinmetz@gmail.com"]
 
   spec.summary       = "Shows a list of the worlds top ten islands to visit"
   spec.description   = "Shows a list of the worlds top ten islands to go to for vacation after a day of coding"
