@@ -11,7 +11,7 @@ class TopTenIslands::Island
   end
 
   def get_discription
-    @discription ||= TopTenIslandsCliGem::Scraper.get_island_discription(@url)
+    @discription ||= TopTenIslands::Scraper.get_island_discription(@url)
   end
 
   def self.all

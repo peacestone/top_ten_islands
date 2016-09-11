@@ -3,4 +3,4 @@
 require_relative "../lib/top_ten_islands.rb"
 
 
-TopTenIslands::Cli.new.start
+islands = TopTenIslands::Cli.new.start

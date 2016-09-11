@@ -8,7 +8,7 @@ class TopTenIslands::Scraper
   def self.create_islands
     #binding.pry
     island_array = get_page.css(" .mainName").map do |island|
-       i = TopTenIslandsCliGem::Island.new(island.text.strip,"https://www.tripadvisor.com#{island.css("a").attribute("href").text}")
+       i = TopTenIslands::Island.new(island.text.strip,"https://www.tripadvisor.com#{island.css("a").attribute("href").text}")
     end
   end
 
