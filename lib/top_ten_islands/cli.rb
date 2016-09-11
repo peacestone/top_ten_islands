@@ -40,14 +40,9 @@ class TopTenIslands::Cli
       when  "y"
         discription
       when  "n"
-        puts "Hope to see you visit #{TopTenIslands::Island.all[@input-1].name} real soon!"
+        puts "Hope to see you come visit #{TopTenIslands::Island.all[@input-1].name} real soon!!"
       end
 
   end
-
-
-
-
-
 
 end
